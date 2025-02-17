@@ -9,7 +9,7 @@ public class Activity
     public DateTime Date { get; set; }
     public required string Description { get; set; }
     public required string Category { get; set; }
-    public required bool IsCancelled { get; set; }
+    // public required bool IsCancelled { get; set; }
 
     // Location properties:
     public required string City { get; set; }
