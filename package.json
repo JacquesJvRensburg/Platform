@@ -1,0 +1,27 @@
+{
+  "name": "platform",
+  "version": "1.0.0",
+  "description": "Backend",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JacquesJvRensburg/Platform.git"
+  },
+  "author": "Jacques Janse van Rensburg",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JacquesJvRensburg/Platform/issues"
+  },
+  "homepage": "https://github.com/JacquesJvRensburg/Platform#readme",
+  "dependencies": {
+    "Microsoft.EntityFrameworkCore.Sqlite": "9.0.2",
+    "Microsoft.EntityFrameworkCore": "9.0.2",
+    "MediatR": "12.4.1"
+  },
+  "devDependencies": {
+    "Microsoft.EntityFrameworkCore.Design": "9.0.2"
+  }
+}
